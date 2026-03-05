@@ -1,0 +1,48 @@
+*{
+    //background: linear-gradient(to right, #f0f0f0, #d9d9d9);
+    background-image: url('images/beauty scene.jpg');
+    color: aqua;
+}
+
+#Para1 {
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Arial', sans-serif;
+}
+
+#Para2 {
+    letter-spacing: 6px;
+    word-spacing: 10px;
+    text-shadow: 1px 1px 1px black;
+    text-transform: lowercase;
+    font-size: 14px;
+    border-top: 2px solid black;
+    padding-top: 10px;
+    color: red;
+    text-align: center;
+}
+
+#box1, #box2, #box3, #box4 {
+    width: 250px;
+    height: 120px;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+#box1 {
+    overflow: visible;
+}
+
+#box2 {
+    overflow: hidden;
+}
+
+#box3 {
+    overflow: scroll;
+}
+
+#box4 {
+    overflow: auto;
+}
