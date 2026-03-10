@@ -1,0 +1,91 @@
+#Para1::first-letter {
+    font-size: xx-large;
+    color: red;
+    font-weight: bold;
+}
+
+#Para2::first-line{
+    font-weight: bold;
+    background-color: lightskyblue;
+}
+
+#Para3::before{
+    content: "NOTE: ";
+    font-weight: bold;
+    color: red;
+}
+
+#Para4::after{
+    content: " ©2026";
+}
+
+li:nth-child(even){
+    background-color: aqua;
+    
+} 
+
+li:nth-child(odd){
+    background-color: rgb(201, 211, 219);
+}
+
+#HTML{
+    color: red;
+    
+}
+
+#CSS{
+    font-weight: bolder;
+    
+}
+
+#Portfolio{
+    color: aqua 
+}
+
+a[target="_blank"]:hover{
+    font-size: large;
+    color: goldenrod;
+}
+
+a[href^="https"]:hover{
+    font-weight: bold;
+    
+}
+
+a:hover{
+    color: red;
+}
+
+img[src$=".png"]{
+    border: 5px solid red;
+}
+input[placeholder*="name"]{
+    background-color: lightgray;
+}
+.Container p{
+    color: chartreuse;
+}
+
+.Container >p{
+    color: red;
+}
+
+h1 + p{
+    color: darkgreen;
+}
+
+h3 ~ p{
+    font-style: italic;
+    color: deepskyblue;
+}
+
+input:focus{
+    border: 4px solid red;
+    background-color: white;
+}
+
+input[type="checkbox"]:checked + label{
+    color: rgb(108, 179, 3);
+    font-weight: bolder;
+    font-size: large;
+}
